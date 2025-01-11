@@ -12,7 +12,7 @@ function App() {
       <h1>Colour generator</h1>
       <p style={styles.p}>The colour is {colour}</p>
       <button onClick={generateColour} style={styles.button}>Generate</button>
-      <div class="rectangle">ee</div>
+      {/* <div class="rectangle" style>ee</div> */}
     </div>
   
   );
@@ -31,7 +31,7 @@ const styles = {
   },
   button: {
     backgroundColor: '#288BA8',
-  },
+  }
   // rectangle: {
   //   width: '300px',
   //   height: '100px',
